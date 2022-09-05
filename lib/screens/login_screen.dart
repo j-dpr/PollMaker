@@ -74,7 +74,7 @@ class _LoginForm extends StatelessWidget {
                   
                   return regExp.hasMatch(value ?? '')
                     ? null
-                    : 'El valor ingresado corresponde a un correo';
+                    : 'El valor ingresado no corresponde a un correo';
 
                 },
               ),
